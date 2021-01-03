@@ -1,0 +1,143 @@
+    h1{
+    display: inline-block;
+    color:#ffffff;
+    text-transform:uppercase;
+    text-align: center;
+    margin-top:20px;
+    }
+    h2{
+	color:#000000;
+	margin-left:1%;
+    }
+    p{
+    margin-left:1%;
+    }
+    header{
+	background: url(http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg) no-repeat;
+	height: 215px;
+	margin-left:1%;
+	margin-right:1%;
+	margin-top:1%;
+	-moz-background-size: 100%; 
+    -webkit-background-size: 100%;
+    -o-background-size: 100%; 
+    background-size: 100%; 
+    text-align:center;
+    }
+    aside img{
+	width: 230px;
+	height: 123px;
+	border: solid 3px #000000;
+	margin:30px;
+	/*display: none;*/
+    }
+    nav a{                   
+	display: inline-block;
+	margin-top:15px;
+	margin-left: 55px;
+	margin-right: 55px;
+	background-color: #ffffff;
+    width:15%;
+    height: 40px;
+	border-radius: 5px;
+	text-decoration:none;
+	padding-top: 15px;
+    }
+
+    .left{
+    display: inline-block;
+    background-color:#777613; 
+    margin-left:1%;
+    width:300px;
+    height: 700px;
+    position: relative;
+    }
+    .right{
+	display: inline-block;
+	background-color: #ffffff;
+	padding: 10px;
+	width:1093px;
+	height: 700px;
+	position: absolute; 
+    }
+
+    nav a{
+    color: #000000; 
+    background:#ffffff;
+    }
+    nav a:active{
+	color: #000083; 
+    background:#d8d8e3; 
+    }   
+     nav a:hover{           
+    color: #000083; 
+    background:#d8d8e3; 
+    }
+
+/*Таблица*/
+   table{
+   width: 800px; /* Ширина таблицы */
+   border-collapse: collapse; /*Убираем двойные линии между ячейками */
+   border: 2px solid black;
+   -webkit-border-radius: 10px 10px 0 0;
+   margin:auto;
+   margin-top:2%;
+   font-family: Arial ;
+   }
+   
+   td, th {
+   padding:10px; /* Поля вокруг содержимого таблицы */
+   border: 3px solid #ffffff; /* Параметры рамки */
+   color:#383838;
+   opacity: .6;
+   background:#e4f5d4;
+   } 
+ 
+   th {
+   background: linear-gradient(to top,#536132,#92a959); /* Цвет фона */
+   border-bottom: 3px solid #82b020; 
+   color:#ffffff
+
+   }
+   a th,td:hover{
+   	color:#383838;
+   	opacity: .9;
+   }
+   /*выравнивание текста*/
+
+   td:nth-child(1) {
+    text-align: left;
+   }
+     td:nth-child(2n) {
+    text-align: center;
+   }
+   td:nth-child(3n) {
+    text-align: center;
+   }
+
+    th{
+   	border-radius: 10px 10px 0 0;
+    }
+    th:nth-child(1){
+  	border-radius: 10px 10px 0 0;
+    }
+    th:nth-child(2n){
+    border-radius: 10px 10px 0 0;
+    }
+    th:nth-child(3n){
+    border-radius: 10px 10px 0 0;
+    }
+ 
+     th:nth-child(1):hover{
+   	 background: #444d35;
+     border-radius: 50%;
+     }
+     th:nth-child(2n):hover{
+     background: #444d35;
+     border-radius: 50%;
+     }
+     th:nth-child(3n):hover{
+     background: #444d35;
+     border-radius: 50%;
+     }
+
